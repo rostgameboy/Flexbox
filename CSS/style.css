@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(41, 41, 41);
+}
+.conteiner{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+.main{
+    display: flex;
+}
+.div-left{
+    flex-direction: column;
+    justify-content: space-around;
+    background: yellow;
+    height: 700px;
+    width: 35%;
+}
+.div-right{
+    width: 65%;
+    height: 700px;
+}
+.img{
+    width: 30%;
+    height: 295px;
+    margin-left: 420px;
+}
